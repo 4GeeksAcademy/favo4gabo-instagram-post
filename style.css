@@ -1,5 +1,45 @@
 body{
-    border: 1px solid red;
     margin: 0;
-    height: 50vh;
+    background-color: black;
+}
+.container-main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram-post{
+    background-color: white;
+    width: 300px;
+}
+.header-post{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}
+.header-left > div > p{
+    margin: 0px;
+}
+.icon-html{
+    font-size: 30px;
+    padding-right: 10px;
+}
+.menu-icon{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.icon-post{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 10px;
+}
+.body-post{
+    padding: 10px;
 }
